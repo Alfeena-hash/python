@@ -1,0 +1,5 @@
+f=open("text.txt","w")
+f.write("sample file\n")
+f.write("This sample\n")
+f.close()
+print("file",f.name,"closed")
